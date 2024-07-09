@@ -1,0 +1,594 @@
+*{
+    padding: 0%;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+header a {
+    text-decoration: none;
+} 
+
+header {
+    background-color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+} 
+
+.catering {
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+    padding-left: 30px;    
+}
+
+.catering a {
+    color: black;
+}
+
+.catering a:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.catering a:hover {
+    color: rgba(128, 128, 128, 0.541);
+}
+
+ul {
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul a {
+    color: black;
+}
+
+ul li {
+    /* padding: 1px; */
+    padding-right: 30px;
+}
+
+ul li:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.ul li:hover {
+    color: rgba(128, 128, 128, 0.541);
+}
+
+/* .img {
+    background: url(pic/hamburger90.jpg);
+    height: auto;
+    background-repeat: no-repeat;
+} */
+
+.img {
+    position: relative;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+.catering-text {
+    position: absolute;
+    top: 90%;
+    padding-left: 30px;
+    font-size: xx-large;
+    letter-spacing: 5px;
+
+}
+
+/* .img p {
+    padding-top: 700px;
+    font-size: xx-large;
+    padding-left: 20px;
+} */
+
+ /* img {
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-bottom: 20px;
+}  */
+
+/* 
+.menu-bar {
+    margin: auto 0;
+    display: none;
+    cursor: pointer;
+} */
+/* 
+.menu-bar div {
+    width: 35px;
+    height: 3px;
+    margin: 6px 0;
+    background-color: aqua;
+    transition: 0.4s;
+} */
+
+/* .open .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+} */
+
+/* .open .bar2 {
+    opacity: 0;
+} */
+
+/* .open .bar3 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 8px);
+    transform: rotate(-45deg) translate(-6px, 8px);
+} */
+
+/* .open .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+} */
+
+/* .mobile-menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    height: calc(100vh - 50px);
+    width: 100%;
+} */
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    row-gap: 30px;
+}
+
+.content .main {
+    width: 500px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    padding-left: 70px;
+}
+
+.right h1 {
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 70%px;
+    font-size: xx-large;
+}
+
+.right h5 {
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 4px;
+}
+
+.text {
+    padding-left: 40px;
+    padding-bottom: 20px;
+    font-size: larger;
+    text-shadow: none;
+}
+
+span {
+    color: rgb(100, 98, 98);
+}
+
+.text2 {
+    padding-left: 40px;
+    color: gray;
+    font-size: larger;
+    text-shadow: none;
+}
+
+.line {
+    margin: auto;
+    width: 900px;
+    height: 0.5px;
+    background-color: rgb(240, 236, 236);
+    padding: 0 120px;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding-left: 100px;
+    line-height: 30px;
+}
+
+.item {
+    padding-top: 160px;
+}
+
+.details {
+    padding-top: 20px;
+}
+.bread {
+    letter-spacing: 1px;
+    color: grey;
+}
+
+.service {
+    color: grey;
+}
+
+.main1 {
+    padding: 90px;
+    width: 70%;
+    height: auto;
+}
+
+.line {
+    margin: auto;
+    width: 870px;
+    height: 0.5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0 120px;
+}
+
+.contact .title {
+    padding-left: 120px;
+    font-size: xx-large;
+    padding-bottom: 30px;
+    padding-top: 40px;
+    letter-spacing: 2px;
+}
+
+.service {
+    padding-left: 120px;
+    padding-top: 6px;
+
+}
+.services {
+    padding-left: 120px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+form input {
+    width: 83%;
+    height: 45px;
+    margin-left: 120px;
+    font-size: 15px;
+    text-indent: 5px;
+    border-width: 0 0 .5px 0;
+}
+
+form input:focus {
+    border-width: 1px;
+}
+
+form button {
+    margin-top: 15px;
+    margin-left: 120px;
+    padding: 10px 15px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.377);
+}
+
+form button:hover {
+    color: gray;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    height: 80px;
+    padding-top: 40px;
+}
+
+footer a {
+    color: rgba(128, 128, 128, 0.918);
+}
+
+@media screen and (max-width: 600px) and (orientation: landscape) {
+
+    .catering {
+        font-weight: 9rem;
+        font-size: 1.1rem;
+        letter-spacing: 1px;
+    }
+
+    ul {
+        width: 300%;
+    }
+
+    .catering-text {
+        margin-left: -1rem;
+        top: 80%;
+        padding-left: rem;
+        font-size: x-large;
+        font-weight: bold;   
+    }
+
+    /* .content .main {
+        width: 100px;
+        padding-top: 80px;
+        padding-bottom: 100px;
+        padding-left: 70px;
+    } */
+
+    .right h1 {
+        padding-top: 5rem;
+        margin-left: -5rem;
+        letter-spacing: 6px;
+    }
+
+    .right h5 {
+        letter-spacing: 4px;
+        margin-left: -5rem;
+        padding-bottom: 30px;
+        font-size: larger;
+    }
+
+    .text {
+        padding-left: 50px;
+        padding-right: 20px;
+        font-weight: 900;
+        margin-left: -6rem;
+    }
+    
+    .text2 {
+        padding-left: 50px;
+        padding-right: 20px;
+        font-weight: 900;
+        margin-left: -6rem;
+        padding-bottom: 60px;
+    }
+
+    .line {
+        width: 42%;
+    }
+ 
+    .items {
+        display: flex;
+        flex-direction: column;
+        padding-left: 1rem;
+    }
+
+    .item {
+        padding-top: 5rem;
+        letter-spacing: 4px;
+        padding-left: 6rem;
+    }
+
+    .details {
+        padding-top: 2rem;
+        padding-left: 1rem;
+        font-size: x-large;
+        letter-spacing: 6px;
+    }
+
+    .bread {
+        letter-spacing: 1px;
+        padding-top: 1.5rem;
+        padding-left: 1rem;
+        font-size: larger;
+    }
+
+    .content .main {
+        width: 0rem;
+    }
+
+    .main1 {
+        width: 90%;
+        height: auto;
+        margin-left: -70px;
+    }
+
+    .contact .title {
+        margin-left: -6rem;
+        font-size: x-large;
+        font-weight: 900;
+    }
+    .services {
+        padding-left: 1rem;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        font-size: x-large;
+    }
+
+    .service {
+        padding-left: 1rem;
+        padding-top: 10px;
+        font-size: x-large;
+    }
+
+    form input {
+        margin-left: 1rem;
+        font-size: 20px;
+    }
+
+    form button {
+        margin-top: 20px;
+        margin-left: 1rem;
+        font-size: 20px;
+        background-color: rgba(128, 128, 128, 0.151);
+    }
+
+    form button:hover {
+        color: gray;
+    }
+
+    }
+
+    @media screen and (max-width: 600px) and (orientation: portrait) {
+    
+    .catering {
+        font-weight: 9rem;
+        font-size: 1.1rem;
+        letter-spacing: 1px;
+    }
+
+    ul {
+        width: 300%;
+    }
+
+    .catering-text {
+        margin-left: -1rem;
+        top: 80%;
+        padding-left: rem;
+        font-size: x-large;
+        font-weight: bold;   
+    }
+
+    /* .content .main {
+        width: 100px;
+        padding-top: 80px;
+        padding-bottom: 100px;
+        padding-left: 70px;
+    } */
+
+    .right h1 {
+        padding-top: 5rem;
+        margin-left: -5rem;
+        letter-spacing: 6px;
+    }
+
+    .right h5 {
+        letter-spacing: 4px;
+        margin-left: -5rem;
+        padding-bottom: 30px;
+        font-size: larger;
+    }
+
+    .text {
+        padding-left: 50px;
+        padding-right: 20px;
+        font-weight: 900;
+        margin-left: -6rem;
+    }
+    
+    .text2 {
+        padding-left: 50px;
+        padding-right: 20px;
+        font-weight: 900;
+        margin-left: -6rem;
+        padding-bottom: 60px;
+    }
+
+    .line {
+        width: 42%;
+    }
+ 
+    .items {
+        display: flex;
+        flex-direction: column;
+        padding-left: 1rem;
+    }
+
+    .item {
+        padding-top: 5rem;
+        letter-spacing: 4px;
+        padding-left: 6rem;
+    }
+
+    .details {
+        padding-top: 2rem;
+        padding-left: 1rem;
+        font-size: x-large;
+        letter-spacing: 6px;
+    }
+
+    .bread {
+        letter-spacing: 1px;
+        padding-top: 1.5rem;
+        padding-left: 1rem;
+        font-size: larger;
+    }
+
+    .content .main {
+        width: 0rem;
+    }
+
+    .main1 {
+        width: 90%;
+        height: auto;
+        margin-left: -70px;
+    }
+
+    .contact .title {
+        margin-left: -6rem;
+        font-size: x-large;
+        font-weight: 900;
+    }
+    .services {
+        padding-left: 1rem;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        font-size: x-large;
+    }
+
+    .service {
+        padding-left: 1rem;
+        padding-top: 10px;
+        font-size: x-large;
+    }
+
+    form input {
+        margin-left: 1rem;
+        font-size: 20px;
+    }
+
+    form button {
+        margin-top: 20px;
+        margin-left: 1rem;
+        font-size: 20px;
+        background-color: rgba(128, 128, 128, 0.151);
+    }
+
+    form button:hover {
+        color: gray;
+    }
+
+    }
+
+    @media screen and (min-width: 601px) {
+        .catering {
+        font-weight: 900;
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+
+    ul {
+        width: 300%;
+    
+    }
+    } 
+
+    @media screen and (min-width: 768px) {
+        .catering {
+        font-weight: 900;
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+
+    ul {
+        width: 100%;
+    
+    }
+    } 
+         
+
